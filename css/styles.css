@@ -7668,6 +7668,7 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+  margin-top: 100px;
 }
 
 .text-decoration-none {
@@ -7767,6 +7768,7 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #025377 !important;
+  margin-left: 100px;
 }
 
 .text-black-50 {
@@ -7934,6 +7936,7 @@ textarea.form-control-lg {
 
 .rounded-circle {
   border-radius: 50% !important;
+  margin-left: 0px;
 }
 
 .rounded-pill {
@@ -11291,7 +11294,11 @@ body {
 }
 
 p {
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 70px;
   line-height: 1.75;
+  text-align: center;
 }
 
 .page-section {
@@ -11409,7 +11416,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  opacity:0.9;
+  opacity:0.99;
 }
 header.masthead .masthead-subheading {
   font-size: 64px;
@@ -11585,7 +11592,7 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffc800;
+  background-color: #bad6db;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11652,7 +11659,8 @@ header.masthead .masthead-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
-    text-align: left;
+    text-align: right;
+    margin-left:10px;
   }
 }
 @media (min-width: 992px) {
@@ -11686,7 +11694,7 @@ header.masthead .masthead-heading {
   .timeline > li .timeline-image {
     width: 170px;
     height: 170px;
-    margin-left: -85px;
+    margin-left: 0px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     margin-top: 40px;
@@ -11798,13 +11806,14 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .sobreMiRow{
+  margin-top: 120px;
   padding:3rem 0;
 }
 
 .libretaSobreMi {
   width: 70%;
-  margin: -2rem;
-
+  margin: -3rem;
+  margin-top: 10px;
 }
 
 .titulos {
