@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family:"segoe";
+  src: url("segoesc.ttf");
+}
 
 :root {
   --bs-blue: #0d6efd;
@@ -11767,4 +11771,51 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+/*---- CSS LAUTARO  ------*/
+/* navbar */
+#navbarResponsive ul li a{
+  color:white!important;
+}
+#mainNav  {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+.masthead {
+  width: 100vw;
+  height: 100vh;
+}
+.logoHeader {
+  width: 30%;
+  padding-top: 4rem;
+}
+/* Sobre mi */
+.sobreMiSection {
+  background-color: #f4f5f5;
+}
+
+.sobreMiRow{
+  padding:3rem 0;
+}
+
+.libretaSobreMi {
+  width: 70%;
+  margin: -2rem;
+
+}
+
+.titulos {
+  font-family:"segoe";
+}
+
+/*--- SERVICIOS---*/
+
+.agendasBlurb {
+  width: 55%;
+}
+.cuadernosBlurb {
+  width: 59%;
 }
