@@ -11865,4 +11865,13 @@ header.masthead .masthead-subheading {
   height:100%;
 }
 
+/*---- QUIENES SOMOS----- */
+.page-section {
+  padding-bottom: 0;
+}
+.libretaSobreMiDiv {
+  display: grid;
+}
+
+
 }
