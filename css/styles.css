@@ -11836,6 +11836,19 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 /*--- SERVICIOS---*/
+.catalogoTitle{
+  padding-top: 2rem;
+}
+
+.imageCarrousel {
+  margin: 0 auto;
+  width: 70%;
+  padding-bottom: 3rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #bad6db;
+}
 
 .agendasBlurb {
   width: 55%;
