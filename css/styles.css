@@ -4,6 +4,10 @@
   src: url("");
 }
 
+html, body {
+  height: 100%;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11838,4 +11842,39 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .cuadernosBlurb {
   width: 59%;
+<<<<<<< HEAD
+=======
+}
+
+
+/*- ----- MEDIA QUERIES ---*/
+
+
+/*---- CELULAR  ---*/
+
+@media (max-width: 400px) {
+ /* HERO SECTION */
+.logoHeader {
+  padding-top: 12rem;
+  width: 50%;
+}
+header.masthead .masthead-subheading {
+  font-size: 2.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.masthead {
+  height:100%;
+}
+
+/*---- QUIENES SOMOS----- */
+.page-section {
+  padding-bottom: 0;
+}
+.libretaSobreMiDiv {
+  display: grid;
+}
+
+
+>>>>>>> 4263836193d45386f1f72f501b54d36e6de54442
 }
