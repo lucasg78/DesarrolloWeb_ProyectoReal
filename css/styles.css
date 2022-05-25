@@ -5161,13 +5161,14 @@ fieldset:disabled .btn {
 .card {
   position: relative;
   display: flex;
+  align-items: center;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
 }
 
 .card>hr {
@@ -5203,7 +5204,9 @@ fieldset:disabled .btn {
 }
 
 .card-title {
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .card-subtitle {
@@ -5212,6 +5215,7 @@ fieldset:disabled .btn {
 }
 
 .card-text:last-child {
+  margin-top:10px;
   margin-bottom: 0;
 }
 
@@ -5265,11 +5269,12 @@ fieldset:disabled .btn {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 100%;
+  width: 50%;
 }
 
 .card-img,
 .card-img-top {
+  margin-top:20px;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
@@ -12422,7 +12427,7 @@ header.masthead .masthead-heading {
   header.masthead .masthead-subheading {
     font-family: 'Caveat', cursive;
     font-size: 56px;
-    font-weight: normal;
+    font-weight: 700;
     line-height: 2.25rem;
     margin-top: 20px;
   }
@@ -12890,7 +12895,21 @@ div.reset {
   font-family: 'Oxygen', sans-serif;
   color: #025377;
   font-size: 16px;
+  line-height:1.8;
   font-weight: normal;
+}
+
+.textoSobreLBFinal {
+  margin-left: 100px;
+  margin-right: 400px;
+  padding:10px;
+  font-family: 'Oxygen', sans-serif;
+  color: #025377;
+  font-size: 18px;
+  line-height:1.8;
+  font-weight: bold;
+  background-color:rgb(200,210,200);
+  border-radius: 10px;
 }
 
 h2 {
