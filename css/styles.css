@@ -12414,7 +12414,7 @@ p.pasoProceso2 {
 }
 
 p.pasoProceso3 {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 p.pasoProceso4 {
@@ -13024,6 +13024,11 @@ h2.subtitulo {
 
   h2.subtitulo {
     font-size: 2rem;
+  }
+
+  #subtituloPedido {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 32px;
   }
 
   .masthead {
