@@ -5207,7 +5207,7 @@ fieldset:disabled .btn {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   text-align: center;
-  color:#02374e;
+  color: #02374e;
 }
 
 .card-subtitle {
@@ -5216,9 +5216,9 @@ fieldset:disabled .btn {
 }
 
 .card-text:last-child {
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 0;
-  color:#025377;
+  color: #025377;
 }
 
 .card-link+.card-link {
@@ -5274,9 +5274,17 @@ fieldset:disabled .btn {
   width: 50%;
 }
 
+.album {
+  width: 67%;
+}
+
+.caja {
+  width: 50%;
+}
+
 .card-img,
 .card-img-top {
-  margin-top:20px;
+  margin-top: 20px;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
@@ -8725,6 +8733,10 @@ fieldset:disabled .btn {
 .text-muted {
   --bs-text-opacity: 1;
   color: #025377 !important;
+}
+
+p.pasoProceso {
+  margin-top: 0px;
 }
 
 .text-black-50 {
@@ -12393,6 +12405,22 @@ p {
   }
 }
 
+p.pasoProceso1 {
+  margin-top: 20px;
+}
+
+p.pasoProceso2 {
+  margin-top: 50px;
+}
+
+p.pasoProceso3 {
+  margin-top: 100px;
+}
+
+p.pasoProceso4 {
+  margin-top: 30px;
+}
+
 header.masthead {
   text-align: center;
   color: #025377;
@@ -12579,7 +12607,7 @@ header.masthead .masthead-heading {
   position: relative;
   float: right;
   width: 100%;
-  padding: 0 20px 0 100px;
+  padding: 0 0px 0 100px;
   text-align: left;
 }
 
@@ -12731,7 +12759,7 @@ header.masthead .masthead-heading {
   }
 
   .timeline>li .timeline-panel {
-    padding: 0 20px 20px 100px;
+    padding: 20px 20px 20px 100px;
   }
 
   .timeline>li .timeline-image {
@@ -12765,7 +12793,6 @@ header.masthead .masthead-heading {
 .team-member .h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
-  7
 }
 
 .img-brand {
@@ -12897,20 +12924,20 @@ div.reset {
   font-family: 'Oxygen', sans-serif;
   color: #025377;
   font-size: 16px;
-  line-height:1.8;
+  line-height: 1.8;
   font-weight: normal;
 }
 
 .textoSobreLBFinal {
   margin-left: 100px;
   margin-right: 400px;
-  padding:10px;
+  padding: 10px;
   font-family: 'Oxygen', sans-serif;
   color: #025377;
   font-size: 18px;
-  line-height:1.8;
+  line-height: 1.8;
   font-weight: bold;
-  background-color:rgb(250,240,230);
+  background-color: rgb(250, 240, 230);
   border-radius: 10px;
 }
 
@@ -12939,12 +12966,12 @@ h2 {
   margin-top: 100px;
 }
 
-.subtitulo {
+h2.subtitulo {
   font-family: 'Oxygen', sans-serif;
 }
 
 /*--- SERVICIOS---*/
-.catalogoTitle {
+.catalogo {
   padding-top: 2rem;
 }
 
@@ -12977,18 +13004,30 @@ h2 {
 
   /* HERO SECTION */
   .logoHeader {
-    padding-top: 12rem;
+    padding-top: 6rem;
     width: 50%;
   }
 
   header.masthead .masthead-subheading {
-    font-size: 2.5rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .libreta {
+    display: none;
+  }
+
+  .textoSobreLBFinal {
+    display:none;
+  }
+
+  h2.subtitulo {
+    font-size: 2rem;
   }
 
   .masthead {
-    height: 100%;
+    height: 80%;
   }
 
   /*---- QUIENES SOMOS----- */
@@ -12996,7 +13035,25 @@ h2 {
     padding-bottom: 0;
   }
 
-
+  p.pasoProceso1 {
+    margin-top: 0px;
+    font-size:13px;
+  }
+  
+  p.pasoProceso2 {
+    margin-top: 0px;
+    font-size:13px;
+  }
+  
+  p.pasoProceso3 {
+    margin-top: 0px;
+    font-size:13px;
+  }
+  
+  p.pasoProceso4 {
+    margin-top: 0px;
+    font-size:13px;
+  }
 
 
 }
