@@ -12810,6 +12810,9 @@ h2.subtitulo {
 .carousel-control-next-icon {
   background-color: #bad6db;
 }
+.indicadorCarrousel {
+  background-color: #025377!important;
+}
 
 .agendasBlurb {
   width: 55%;
@@ -12823,6 +12826,7 @@ h2.subtitulo {
   font-family: 'Oxygen', sans-serif;
   font-size: 42px;
 }
+
 
 /*- ----- MEDIA QUERIES ---*/
 
