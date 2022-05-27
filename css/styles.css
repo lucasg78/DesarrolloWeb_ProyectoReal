@@ -130,25 +130,11 @@ h2,
   font-size: calc(1.325rem + 0.9vw);
 }
 
-@media (min-width: 1200px) {
 
-  h2,
-  .h2 {
-    font-size: 2rem;
-  }
-}
 
 h3,
 .h3 {
   font-size: calc(1.3rem + 0.6vw);
-}
-
-@media (min-width: 1200px) {
-
-  h3,
-  .h3 {
-    font-size: 1.75rem;
-  }
 }
 
 h4,
@@ -443,11 +429,7 @@ legend {
   line-height: inherit;
 }
 
-@media (min-width: 1200px) {
-  legend {
-    font-size: 1.5rem;
-  }
-}
+
 
 legend+* {
   clear: left;
@@ -12132,7 +12114,7 @@ p {
 
 .page-section {
   padding-bottom: 130px;
-  background-color:white;
+  background-color: white;
 }
 
 .contact {
@@ -12784,7 +12766,7 @@ div.reset {
 }
 
 .textoSobreLBFinal {
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 50px;
   margin-right: 350px;
   padding: 10px;
@@ -12820,7 +12802,7 @@ h2 {
 
 #services {
   margin-top: 100px;
-  background-color:white;
+  background-color: white;
 }
 
 h2.subtitulo {
@@ -12830,7 +12812,7 @@ h2.subtitulo {
 /*--- SERVICIOS---*/
 .catalogo {
   padding-top: 2rem;
-  background-color:white;
+  background-color: white;
 }
 
 .imageCarrousel {
@@ -13007,6 +12989,21 @@ h2.subtitulo {
 }
 
 @media (min-width: 1200px) {
+
+  h3,
+  .h3 {
+    font-size: 1.75rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 2rem;
+  }
+
+  legend {
+    font-size: 1.5rem;
+  }
+
   .list-group-horizontal-xl {
     flex-direction: row;
   }
