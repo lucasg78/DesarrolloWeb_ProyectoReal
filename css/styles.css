@@ -12924,10 +12924,6 @@ h2.subtitulo {
     border-radius: 10px;
   }
 
-  .libreta {
-    display: none;
-  }
-
   .textoSobreLB {
     font-family: 'Oxygen', sans-serif;
     color: #025377;
