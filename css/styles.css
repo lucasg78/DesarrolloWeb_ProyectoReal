@@ -5235,7 +5235,9 @@ fieldset:disabled .btn {
 }
 
 .album {
-  width: 67%;
+  width: 80%;
+  padding-top: 49px;
+  padding-bottom: 49px;
 }
 
 .caja {
@@ -12727,8 +12729,9 @@ div.sobreLB {
 }
 
 div.sobreLB img.libreta {
-  float: right;
+  float:right;
   margin-left: 30px;
+  width: 20%;
 }
 
 div.reset {
@@ -12738,22 +12741,23 @@ div.reset {
 .hola {
   font-family: 'Oxygen', sans-serif;
   color: #025377;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
+  margin-right: 300px;
 }
 
 .textoSobreLB {
   font-family: 'Oxygen', sans-serif;
   color: #025377;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.8;
   font-weight: normal;
 }
 
 .textoSobreLBFinal {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 50px;
-  margin-right: 350px;
+  margin-right: 500px;
   padding: 10px;
   font-family: 'Oxygen', sans-serif;
   color: #025377;
@@ -12851,6 +12855,14 @@ h2.subtitulo {
     display: none;
   }
 
+  .hola {
+    font-family: 'Oxygen', sans-serif;
+    color: #025377;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 0px;
+  }
+
   .textoSobreLBFinal {
     display: none;
   }
@@ -12894,6 +12906,15 @@ h2.subtitulo {
     font-size: 13px;
   }
 
+  .textoSobreLB {
+    font-family: 'Oxygen', sans-serif;
+    color: #025377;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: normal;
+  }
+
   .textoSobreLBFinal {
     margin-top: 30px;
     margin-left: 0px;
@@ -12911,7 +12932,7 @@ h2.subtitulo {
 
 @media (min-width: 401px) {
   .textoSobreLBFinal {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 10px;
@@ -12924,13 +12945,23 @@ h2.subtitulo {
     border-radius: 10px;
   }
 
+  .hola {
+    font-family: 'Oxygen', sans-serif;
+    color: #025377;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 0px;
+  }
+
   .textoSobreLB {
     font-family: 'Oxygen', sans-serif;
     color: #025377;
+    margin-top: 50px;
     font-size: 14px;
     line-height: 1.8;
     font-weight: normal;
   }
+
   p.pasoProceso1 {
     margin-top: 10px;
     font-size: 13px;
@@ -12982,19 +13013,6 @@ h2.subtitulo {
     border-left-width: 1px;
   }
 
-  .textoSobreLBFinal {
-    margin-top: 30px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 10px;
-    font-family: 'Oxygen', sans-serif;
-    color: #025377;
-    font-size: 18px;
-    line-height: 1.8;
-    font-weight: bold;
-    background-color: rgb(250, 240, 230);
-    border-radius: 10px;
-  }
   p.pasoProceso1 {
     margin-top: 10px;
     font-size: 16px;
@@ -13017,6 +13035,12 @@ h2.subtitulo {
 }
 
 @media (min-width: 768px) {
+  div.sobreLB img.libreta {
+    float:right;
+    margin-left: 30px;
+    width: 30%;
+  }
+  
   .list-group-horizontal-md {
     flex-direction: row;
   }
