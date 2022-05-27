@@ -12796,7 +12796,7 @@ h2.subtitulo {
 
 /*--- SERVICIOS---*/
 .catalogo {
-  padding-top: 2rem;
+  padding-top: 0rem;
   background-color: white;
 }
 
@@ -12819,6 +12819,10 @@ h2.subtitulo {
   width: 59%;
 }
 
+#subtituloPedido {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 42px;
+}
 
 /*- ----- MEDIA QUERIES ---*/
 
@@ -12885,7 +12889,69 @@ h2.subtitulo {
     margin-top: 0px;
     font-size: 13px;
   }
+
+  .textoSobreLBFinal {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    font-family: 'Oxygen', sans-serif;
+    color: #025377;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: bold;
+    background-color: rgb(250, 240, 230);
+    border-radius: 10px;
+  }
 }
+
+@media (min-width: 401px) {
+  .textoSobreLBFinal {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    font-family: 'Oxygen', sans-serif;
+    color: #025377;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: bold;
+    background-color: rgb(250, 240, 230);
+    border-radius: 10px;
+  }
+
+  .libreta {
+    display: none;
+  }
+
+  .textoSobreLB {
+    font-family: 'Oxygen', sans-serif;
+    color: #025377;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: normal;
+  }
+  p.pasoProceso1 {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  p.pasoProceso2 {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  p.pasoProceso3 {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  p.pasoProceso4 {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+}
+
 
 @media (min-width: 576px) {
   .list-group-horizontal-sm {
@@ -12914,6 +12980,39 @@ h2.subtitulo {
   .list-group-horizontal-sm>.list-group-item+.list-group-item.active {
     margin-left: -1px;
     border-left-width: 1px;
+  }
+
+  .textoSobreLBFinal {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    font-family: 'Oxygen', sans-serif;
+    color: #025377;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: bold;
+    background-color: rgb(250, 240, 230);
+    border-radius: 10px;
+  }
+  p.pasoProceso1 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  p.pasoProceso2 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  p.pasoProceso3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  p.pasoProceso4 {
+    margin-top: 10px;
+    font-size: 16px;
   }
 }
 
