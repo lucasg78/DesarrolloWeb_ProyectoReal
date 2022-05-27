@@ -8440,7 +8440,7 @@ fieldset:disabled .btn {
 
 .text-center {
   text-align: center !important;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .redes {
@@ -12260,10 +12260,6 @@ header.masthead .masthead-subheading {
   font-style: italic;
   font-family: 'Caveat', cursive;
   font-weight:bold;
-  padding: 1.5rem;
-  margin: 25px 300px ;
-  background-color: azure;
-  border-radius: 10px;
 }
 
 header.masthead .masthead-heading {
@@ -12284,8 +12280,8 @@ header.masthead .masthead-heading {
     font-family: 'Caveat', cursive;
     font-size: 56px;
     font-weight: 700;
+    margin-top: 2rem;
     line-height: 2.25rem;
-    margin-top: 20px;
   }
 
   header.masthead .masthead-heading {
@@ -12841,8 +12837,6 @@ h2.subtitulo {
     font-weight:bold;
     padding: 0.8rem;
     margin: 10px 50px ;
-    background-color: azure;
-    border-radius: 10px;
   }
 
   .libreta {
@@ -12855,6 +12849,7 @@ h2.subtitulo {
 
   h2.subtitulo {
     font-size: 2rem;
+    margin-top:30px;
   }
 
   #subtituloPedido {
@@ -12867,7 +12862,8 @@ h2.subtitulo {
   }
 
   .page-section {
-    padding-bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 0px;
   }
 
   p.pasoProceso1 {
