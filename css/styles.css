@@ -12755,7 +12755,7 @@ div.reset {
 }
 
 .textoSobreLBFinal {
-  margin-top: 40px;
+  margin-top: 10px;
   margin-left: 50px;
   margin-right: 500px;
   padding: 10px;
@@ -12766,6 +12766,13 @@ div.reset {
   font-weight: bold;
   background-color: rgb(250, 240, 230);
   border-radius: 10px;
+}
+
+.teInvito {
+  font-family: 'Oxygen', sans-serif;
+  color: #025377;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 h2 {
